@@ -11,6 +11,6 @@ local Settings = {
     Whitelist_Table_URL = 'https://raw.githubusercontent.com/skfn9p8u3g48bhsythnotn9a7g2asd2/burnhubtest/main/hwidtablenkeys', --Please dm (funny guy#0202) for formatting
     Anti_Dex = false,
     Notifications = true,
-    Notify_Type = 'print', --Options include "print", "rconsoleprint", "rblxnotification",
+    Notify_Type = 'rconsoleprint', --Options include "print", "rconsoleprint", "rblxnotification",
 }
 return Webhook_Settings, Settings
