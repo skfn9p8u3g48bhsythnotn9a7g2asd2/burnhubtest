@@ -1,0 +1,16 @@
+local Webhook_Settings = {
+    Enabled = true,
+    Incorrect_Key_Webhook = 'https://discord.com/api/webhooks/1052599467439824926/f_m-r1eSsY420Y35C1qReYakVXd1ggfAM21z2GE1Z_WGQGemJavhF5f5_BdHt3n3sHDv', --Discord Webhook link
+    Incorrect_HWID_Webhook = 'https://discord.com/api/webhooks/1052599467439824926/f_m-r1eSsY420Y35C1qReYakVXd1ggfAM21z2GE1Z_WGQGemJavhF5f5_BdHt3n3sHDv',
+    Unidentified_Error_Webhook = 'https://discord.com/api/webhooks/1052599467439824926/f_m-r1eSsY420Y35C1qReYakVXd1ggfAM21z2GE1Z_WGQGemJavhF5f5_BdHt3n3sHDv',
+    Successful_Inject_Webhook = 'https://discord.com/api/webhooks/1052599467439824926/f_m-r1eSsY420Y35C1qReYakVXd1ggfAM21z2GE1Z_WGQGemJavhF5f5_BdHt3n3sHDv',
+}
+local Settings = {
+    Script_Enabled = true,
+    Script_Title = 'Your Script Hub',
+    Whitelist_Table_URL = 'https://raw.githubusercontent.com/skfn9p8u3g48bhsythnotn9a7g2asd2/burnhubtest/main/hwidtablenkeys', --Please dm (funny guy#0202) for formatting
+    Anti_Dex = false,
+    Notifications = true,
+    Notify_Type = 'print', --Options include "print", "rconsoleprint", "rblxnotification",
+}
+return Webhook_Settings, Settings
